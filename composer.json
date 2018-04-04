@@ -1,0 +1,23 @@
+{
+    "name": "suisui654/packagist_test",
+    "description": "Array Functions Wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "suisui654",
+            "email": "suisui654@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Collection\\": "src/",
+            "CollectionTest\\": "tests/"
+        }
+    }
+}
